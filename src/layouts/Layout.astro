@@ -1,0 +1,17 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Nav from "../components/Nav.astro";
+const current_path = Astro.url.pathname;
+const { title } = Astro.props;
+---
+
+<html lang="en">
+    <BaseHead title={title} />
+    <body class="bg-primdark w-screen">
+        <div class="bg-seclight md:w-3/5 h-screen mx-auto">
+            <Nav currentPath={current_path} />
+            {current_path}
+            <slot />
+        </div>
+    </body>
+</html>
