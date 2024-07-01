@@ -25,27 +25,27 @@ if (currHour == 12) {
 }
 ---
 
-<footer class="mt-10 mb-10">
+<footer class="mt-10">
     <div class="text-center">
         <div>
-        <a href="https://x.com/trulyshaking" class="mx-2 text-primdark hover:text-red-700" aria-label="Twitter">
+        <a href="https://x.com/trulyshaking" class="mx-2 text-primdark hover:text-red-700" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
             <svg class="w-5 h-5 inline-block" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path d="M22.46 6.003c-.793.35-1.64.584-2.533.693.911-.547 1.61-1.412 1.939-2.444-.853.507-1.796.875-2.803 1.075-.804-.856-1.95-1.39-3.217-1.39-2.433 0-4.406 1.974-4.406 4.406 0 .345.039.68.114 1.003-3.662-.184-6.91-1.938-9.083-4.606-.378.65-.594 1.406-.594 2.21 0 1.523.775 2.867 1.954 3.656-.719-.022-1.397-.221-1.989-.548v.056c0 2.126 1.513 3.903 3.522 4.303-.369.1-.758.154-1.158.154-.283 0-.561-.027-.831-.08.562 1.75 2.193 3.022 4.126 3.056-1.51 1.182-3.41 1.885-5.48 1.885-.356 0-.707-.021-1.054-.062 1.953 1.251 4.268 1.983 6.752 1.983 8.097 0 12.529-6.703 12.529-12.529 0-.191-.004-.381-.013-.57.86-.62 1.608-1.393 2.2-2.276z" />
             </svg>
           </a>
-          <a href="https://github.com/deanthakur" class="mx-2 text-primdark hover:text-red-700" aria-label="GitHub">
+          <a href="https://github.com/deanthakur" class="mx-2 text-primdark hover:text-red-700" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
             <svg class="w-5 h-5 inline-block" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 0C5.373 0 0 5.373 0 12c0 5.303 3.438 9.8 8.205 11.387.6.11.82-.26.82-.577v-2.234c-3.338.726-4.042-1.415-4.042-1.415-.546-1.387-1.334-1.756-1.334-1.756-1.09-.744.084-.729.084-.729 1.205.084 1.84 1.237 1.84 1.237 1.07 1.836 2.807 1.306 3.493.997.108-.775.418-1.307.762-1.607-2.665-.303-5.467-1.335-5.467-5.935 0-1.311.467-2.384 1.236-3.23-.124-.304-.536-1.525.117-3.176 0 0 1.008-.322 3.301 1.23a11.484 11.484 0 013.004-.404 11.48 11.48 0 013.004.404c2.29-1.552 3.297-1.23 3.297-1.23.654 1.651.242 2.872.118 3.176.77.846 1.236 1.919 1.236 3.23 0 4.61-2.807 5.63-5.481 5.926.43.372.815 1.103.815 2.222v3.293c0 .319.22.693.824.575C20.565 21.797 24 17.302 24 12c0-6.627-5.373-12-12-12z" />
             </svg>
           </a>
-          <a href="mailto:dean@deanthakur.com" class="mx-2 text-primdark hover:text-red-700" aria-label="Email">
+          <a href="mailto:dean@deanthakur.com" class="mx-2 text-primdark hover:text-red-700" aria-label="Email" target="_blank" rel="noopener noreferrer">
             <svg class="w-5 h-5 inline-block" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 12.713l-11.99-7.713h23.98l-11.99 7.713zm0 1.287l-12-7.7v12.7h24v-12.7l-12 7.7z" />
             </svg>
           </a>
           </div>
-          <p class="font-serif text-sm">Currently {correctedHour}:{correctedMinute} {meridianDesignation} in NYC</p>
-          <a href="https://github.com/deanthakur/deanthakur.github.io" class="hover:text-red-700"><p class="font-serif text-xs underline">Source code for this site</p></a>
+          <p class="font-serif text-xs mt-2">Last updated {correctedHour}:{correctedMinute} {meridianDesignation} on {data.month}/{data.day}/{data.year}</p>
+          <a href="https://github.com/deanthakur/deanthakur.github.io" class="hover:text-red-700"><p class="font-serif text-xs underline" target="_blank" rel="noopener noreferrer">Source code for this site</p></a>
     </div>
 </footer>
 
